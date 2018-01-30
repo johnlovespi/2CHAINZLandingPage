@@ -14,6 +14,7 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat+Subrayada" rel="stylesheet">
 
     <link href="https://fonts.googleapis.com/css?family=Carrois+Gothic+SC" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Shanti" rel="stylesheet">
     <!-- end fonts link -->
 
   </head>
@@ -23,47 +24,55 @@
 
 <div class="container">
 
-<div class="row nav">
+<!-- <div class="row"> -->
 
-  <div class="columns">
-    <ul class="menu align-left">
-     <li><a href="#0">News</a></li>
+
+<div class="top-nav">
+  <div class="row">
+  <div class="title-bar" data-responsive-toggle="nav-menu" data-hide-for="medium">
+  <!-- <a class="logo-small show-for-small-only" href="#"><img src="http://placehold.it/50x50?text=LOGO" /></a> -->
+  <button class="menu-icon" type="button" data-toggle></button>
+  <div class="title-bar-title">Menu</div>
+ </div>
+
+<!-- Medium-Up Navigation -->
+<nav class="top-bar" id="nav-menu">
+
+  <!-- Left Nav Section -->
+  <div class="top-bar-left">
+    <ul class="vertical medium-horizontal menu">
+    <li><a href="#0">News</a></li>
       <li><a href="#0">Music</a></li>
       <li><a href="#0">Video</a></li>
        <li><a href="#0">Photos</a></li>
       <li><a href="#0">Store</a></li>
     </ul>
   </div>
-    <div class="columns">
-    <ul class="menu align-center">
-      <h4>2CHAINZ</h4>
-    </ul>
-  </div>
-    <div class="columns">
-    <ul class="menu align-right">
-   <li><a href="0"class="fa fa-facebook" style="font-size:18px;"></a></li>
-        <li><a href="0"class="fa fa-instagram" style="font-size:18px;"></a></li>
-        <li><a href="0"class="fa fa-spotify" style="font-size:18px;"></a></li>
-      <li><a href="0"class="fa fa-youtube-play" style="font-size:18px;"></a></li>
-      <li><a href="0"class="fa fa-mixcloud" style="font-size:18px;"></a></li>
-      <li><a href="0"class="fa fa-mail-forward" style="font-size:18px;"></a></li>
-      <li><a href="0"class="fa fa-key" style="font-size:18px;">Login</a></li>
-
-
-    </ul>
-  </div>
-
+  <!-- Right Nav Section -->
+  <div class="top-bar-right">
+   <ul class="vertical medium-horizontal menu">
+     <li><a href="0" class="fa fa-facebook" style="font-size:18px;"></a></li>
+      <li><a href="0" class="fa fa-instagram" style="font-size:18px;"></a></li>
+      <li><a href="0" class="fa fa-spotify" style="font-size:18px;"></a></li>
+      <li><a href="0" class="fa fa-youtube-play" style="font-size:18px;"></a></li>
+      <li><a href="0" class="fa fa-mixcloud" style="font-size:18px;"></a></li>
+      <li><a href="0" class="fa fa-mail-forward" style="font-size:18px;"></a></li>
+      <li><a href="0" class="fa fa-key" style="font-size:18px;">Login</a></li>
+      </ul>
+   </div>
+  </nav>
+ </div>
 </div>
-    <div class="view2">
+
+<div class="view2">
       <h1>Pretty girls <div id="">like Trap Music</div><br><a class="button large" href="#">Listen Now</a></h1>
-
-
-  </div>
-
+    </div>
+</div>
+ </div>
 </div>
 
 <!-- ABLUM SECTION      -->
-<div class="row column medium-9">
+<div class="row column medium-9 menu align-center">
   <div class="media-object stack-for-small">
     <div class="media-object-section middle">
       <img src="http://payload80.cargocollective.com/1/2/91115/3910703/2%20Chainz_No%20Type.jpg">
@@ -83,9 +92,11 @@
 </div>
   <!-- END ABLUM SECTION      -->
 
-  <div class="row view4">
-  <div class="columns">
 
+  <!-- NEWS SECTION      -->
+
+<div class="row view4">
+<div class="columns">
     <table class="stack">
       <h3>NEWS</h3>
       <tbody>
@@ -98,15 +109,14 @@
          <tr>
           <td id="table_three">Watch out 2CHAINZ Preimers new Music Video</td></tr>
       </tbody>
-
-
     </table>
-    <button class="hollow button warning menu align-center" href="#">View  More</button>
+    <button class="hollow button warning" href="#">View  More</button>
   </div>
-
 </div>
+  <!-- NEWS SECTION  END    -->
 
-<table class="hover">
+<div class="tourdates">
+<table class="hover menu align-center">
   <h3>Tour Dates</h3>
   <tbody>
     <tr>
@@ -141,26 +151,36 @@
     </tr>
   </tbody>
 </table>
+</div>
+
   <div class="footer">
     <h2>NEWS LETTER</h2>
     <form>
- <div class="row">
-    <div class="small-12 medium-6 columns">
+        <div class="row">
+            <div class="small-12 medium-6 columns">
+                <input type="text" placeholder="EMAIL ADDRESS*">
+            </div>
+           <div class="small-12 medium-6 columns">
+                <input type="text" placeholder="ZIP CODE*">
+            </div>
+          </div>
+   </form>
+<div class="row">
+  <!-- <div class="column"><p>2 CHAINZ</p></div> -->
+  <!-- <div class="column"><p>DEF Jam Records</p></div> -->
+  <!-- <div class="column"><p>UNIVERSAL MUSIC GROUP</p></div> -->
 
-        <input type="text" placeholder="EMAIL ADDRESS*">
+  <!-- <p>SUSCRIBE TO EMAIL UPDATES FROM</p> -->
 
-    </div>
-    <div class="small-12 medium-6 columns">
+ <div class="grid-x">
+  <div class="small-6 cell">2 CHAINZ</div>
+    <div class="small-4 cell">DEF Jam Records</div>
+  <div class="small-6 cell">UNIVERSAL MUSIC GROUP</div>
 
-        <input type="text" placeholder="ZIP CODE*">
+</div>
 
-    </div>
-  </div>
-</form>
-<div class="row user_info">
-  <div class="column"><p>2 CHAINZ</p></div>
-  <div class="column"><p>DEF Jam Records</p></div>
-  <div class="column"><p>UNIVERSAL MUSIC GROUP</p></div>
+</div>
+  <button class="hollow button" href="#">SUBMIT</button>
 </div>
 
   </div>
