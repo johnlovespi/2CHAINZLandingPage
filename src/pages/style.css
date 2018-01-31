@@ -1,0 +1,143 @@
+.container{
+/*   padding: 0 auto; */
+  height:110vh;
+    width:100%;
+   background: url("https://hypb.imgix.net/image/2018/01/2-chainz-2018-governors-ball-poster-0.jpg?q=75&w=800&fit=max&auto=compress%2Cformat");
+background-repeat: no-repeat;
+ background-size: cover;
+}
+
+.view2 h1{
+  font-family: 'Tienne', serif;
+/*  text-align:center; */
+  float:left;
+  padding:150px 20px;
+
+}
+
+.card{
+width: 100%;
+
+}
+.row.medium-9{
+/*   background-color:yellow; */
+
+  padding:40px 0px 5px 10%;
+}
+.row .middle img{
+  width:250px;
+  border-radius:6px;
+}
+.button-group a{
+
+  border-radius: 3px;
+}
+.button-group .button{
+  font-size:13px;
+/*   color:black; */
+}
+
+
+
+/* NEWS SECTIONS */
+ h3{
+  text-align: center;
+     font-family: 'Montserrat Subrayada', sans-serif;
+}
+ h2{
+  text-align: center;
+     font-family: 'Montserrat Subrayada', sans-serif;
+}
+h4{
+/*   font-family: 'Tienne', serif; */
+  font-family: 'Montserrat Subrayada', sans-serif;
+}
+.view4{
+
+  padding-bottom:10px;
+  background-color:#ecf0f1;
+
+}
+table.hover{
+  font-family: 'Carrois Gothic SC', sans-serif;
+  padding:30px;
+  font-size:22px;
+
+}
+table.hover tr td{
+   background-color:black;
+  border-radius:4px;
+  color:#f6db5f;
+}
+#table_one{
+    background-image: url("http://thesource.com/wp-content/uploads/2017/06/2-Chainz-and-Nancy-Grace-Debate-Legalizing-Pot-News-FDRMX.jpg");
+/*     background-position: right bottom, left top; */
+    background-repeat: no-repeat;     height:150px;
+    background-size: 100% 400px;
+    background-repeat: no-repeat;
+    color:white;
+    font-size:20px;
+}
+
+#table_two{
+    background-image: url("http://hw-img.datpiff.com/m500bdaa/2_Chainz_Felt_Like_Cappin-front-large.jpg");
+/*     background-position: right bottom, left top; */
+    background-repeat: no-repeat;     height:150px;
+    background-size: 100% 430px;
+    background-repeat: no-repeat;
+  color:white;
+    font-size:22px;
+}
+#table_three{
+    background-image: url("http://defjampress.com/wp-content/uploads/2014/12/2-Chainz-1280x448.jpg");
+/*     background-position: right bottom, left top; */
+    background-repeat: no-repeat;     height:150px;
+    background-size: 100% 200px;
+    background-repeat: no-repeat;
+  color:white;
+    font-size:24px;
+}
+.columns{
+/*   padding:5px; */
+
+}
+table.hover td{
+  margin:1px;
+  border: 1px solid black;
+
+
+}
+
+table.hover td button{
+ width:100%;
+ Height:100%;
+
+}
+
+.user_info{
+  padding-left:50px;
+}
+
+.footer{
+  padding:10px 120px 50px 120px;
+  background-color:#f6db5f;
+
+
+}
+footer{
+
+  background-color:black;
+}
+/*starting media for phone*/
+
+@media only screen and (max-width: 500px) {
+  .container{
+
+     height: 56vh;
+    width:100%;
+   background: url("https://hypb.imgix.net/image/2018/01/2-chainz-2018-governors-ball-poster-0.jpg?q=75&w=800&fit=max&auto=compress%2Cformat");
+background-repeat: no-repeat;
+ background-size: cover;
+}
+
+}
